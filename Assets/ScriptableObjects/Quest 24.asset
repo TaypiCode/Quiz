@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 258582878c8208e4ba16e3f3f807dfae, type: 3}
+  m_Name: Quest 24
+  m_EditorClassIdentifier: 
+  itemId: a3504d16-c455-49c3-b5f5-6cd3013f0dfc
+  _questText: "\u0421\u043A\u043E\u043B\u044C\u043A\u043E \u0446\u0432\u0435\u0442\u043E\u0432
+    \u0432\u043E \u0444\u043B\u0430\u0433\u0435 \u0420\u043E\u0441\u0441\u0438\u0438?"
+  _answers:
+  - 3
+  - 4
+  - 2
+  - 5
+  _rightAnswerId: 0

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 258582878c8208e4ba16e3f3f807dfae, type: 3}
+  m_Name: Quest 78
+  m_EditorClassIdentifier: 
+  itemId: 0ee5eb98-a4e3-476c-aa5b-cfde72b7dab7
+  _questText: "\u0418\u0437 \u0447\u0435\u0433\u043E \u0434\u0435\u043B\u0430\u044E\u0442
+    \u0441\u0430\u0445\u0430\u0440?"
+  _answers:
+  - "\u0421\u0430\u0445\u0430\u0440\u043D\u0430\u044F \u0441\u0432\u0435\u043A\u043B\u0430,
+    \u0442\u0440\u043E\u0441\u0442\u043D\u0438\u043A"
+  - "\u0417\u0435\u0440\u043D\u0430"
+  - "\u0421\u043B\u0430\u0434\u043E\u0441\u0442\u0438"
+  - "\u0412\u043E\u0434\u044B"
+  _rightAnswerId: 0
