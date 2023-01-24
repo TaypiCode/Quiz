@@ -53,8 +53,10 @@ public class Quest : MonoBehaviour
     }
     private void ShowFinish()
     {
+
         _finishUI.SetActive(true);
         _finishMessage.text = "Вы ответили правильно на " + _rightAnswersCount + " из " + _totalQuestsCount;
+        _ads.ShowNonRewardAd();
     }
     private void SetNewQuest()
     {
@@ -112,7 +114,6 @@ public class Quest : MonoBehaviour
                 _questText.text = "Не верно, правильный ответ - '" + _rightAnswer + "'";
             }
             Invoke("SetNewQuest", _delayBetweenQuestions);
-            _ads.ShowNonRewardAd();
         }
         _canClick = false;
     }
